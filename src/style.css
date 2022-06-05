@@ -742,14 +742,14 @@ form {
 }
 
 .walletButton:before {
-  content: "";
+  /* content: "";
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   border: 2px solid #282828;
-  transition: transform 0.2s;
+  transition: transform 0.2s; */
 }
 
 .walletButton:after {

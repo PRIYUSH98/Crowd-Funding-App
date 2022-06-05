@@ -63,12 +63,12 @@ export const abi = [
 				"type": "uint256"
 			},
 			{
-				"internalType": "enum crowdfunding.Category",
+				"internalType": "enum Crowdfunding.Category",
 				"name": "_category",
 				"type": "uint8"
 			},
 			{
-				"internalType": "enum crowdfunding.RefundPolicy",
+				"internalType": "enum Crowdfunding.RefundPolicy",
 				"name": "_refundPolicy",
 				"type": "uint8"
 			}
@@ -143,12 +143,12 @@ export const abi = [
 						"type": "uint256"
 					},
 					{
-						"internalType": "enum crowdfunding.Category",
+						"internalType": "enum Crowdfunding.Category",
 						"name": "category",
 						"type": "uint8"
 					}
 				],
-				"internalType": "struct crowdfunding.ProjectMetadata[]",
+				"internalType": "struct Crowdfunding.ProjectMetadata[]",
 				"name": "allProjects",
 				"type": "tuple[]"
 			}
@@ -238,12 +238,12 @@ export const abi = [
 						"type": "address"
 					},
 					{
-						"internalType": "enum crowdfunding.Category",
+						"internalType": "enum Crowdfunding.Category",
 						"name": "category",
 						"type": "uint8"
 					},
 					{
-						"internalType": "enum crowdfunding.RefundPolicy",
+						"internalType": "enum Crowdfunding.RefundPolicy",
 						"name": "refundPolicy",
 						"type": "uint8"
 					},
@@ -268,7 +268,7 @@ export const abi = [
 						"type": "bool"
 					}
 				],
-				"internalType": "struct crowdfunding.Project",
+				"internalType": "struct Crowdfunding.Project",
 				"name": "project",
 				"type": "tuple"
 			}
@@ -334,12 +334,12 @@ export const abi = [
 						"type": "uint256"
 					},
 					{
-						"internalType": "enum crowdfunding.Category",
+						"internalType": "enum Crowdfunding.Category",
 						"name": "category",
 						"type": "uint8"
 					}
 				],
-				"internalType": "struct crowdfunding.ProjectMetadata[]",
+				"internalType": "struct Crowdfunding.ProjectMetadata[]",
 				"name": "projectsList",
 				"type": "tuple[]"
 			}
@@ -370,7 +370,7 @@ export const abi = [
 						"type": "uint256"
 					}
 				],
-				"internalType": "struct crowdfunding.Funded[]",
+				"internalType": "struct Crowdfunding.Funded[]",
 				"name": "fundedProjects",
 				"type": "tuple[]"
 			}

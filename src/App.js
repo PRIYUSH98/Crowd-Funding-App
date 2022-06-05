@@ -11,7 +11,7 @@ import ProfileComponent from "./components/ProfileComponent";
 import { useState } from "react";
 import { ethers } from "ethers";
 import { abi } from "./abi";
-const CONTRACT_ADDRESS = "0xad7C61FC480E5EEBA7886Fc62A789F9921caC9d7";
+const CONTRACT_ADDRESS = "0x4B04Be3CDA6C104D6d2EC091352C2d12e1A94d4d";
 
 function App() {
   const [myContract, setMyContract] = useState(null);
@@ -123,7 +123,6 @@ function App() {
             )}
           />
         </Routes>
-        {myContract && <FooterComponent />}
       </BrowserRouter>
     </div>
   );
